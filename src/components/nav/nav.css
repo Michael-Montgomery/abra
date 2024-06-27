@@ -1,0 +1,78 @@
+#nav-wrapper {
+    height: 100vh;
+    display: inline-block;
+}
+
+#nav-wrapper img {
+    height: 50px;
+    width: 50px;
+    transform: rotate(-90deg);
+    transition: all 120s;
+}
+
+#nav-wrapper img:hover {
+    transform: rotate(36000deg);
+}
+
+#nav-wrapper ul {
+    list-style-type: none;
+    float: left;
+    margin-top: 35px;
+    padding-left: 0;
+}
+
+#nav-wrapper ul li {
+    /* text-decoration: none; */
+    transform: rotate(90deg);
+    margin-bottom: 15vh;
+}
+
+#nav-wrapper ul li a {
+    text-decoration: none;
+    transition: all .4s;
+    color: white;
+    font-size: 1.6em;
+    /* margin-bottom: 350vh; */
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#nav-wrapper ul li a.active {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+#nav-wrapper ul li a:not(.active) {
+    opacity: .4;
+}
+
+#nav-wrapper ul li a:hover:not(.active) {
+    opacity: .8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+  }
+

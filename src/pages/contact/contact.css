@@ -1,0 +1,108 @@
+#contact-wrapper {
+    width: 70vw;
+    display: inline-block;
+    float: right;
+    padding-right: 10vw;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    font-size: 1.6em;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+}
+
+form input:focus, form textarea:focus {
+    background-color: white;
+    color: black;
+}
+
+form input:focus::placeholder {
+    color: black;
+}
+
+form textarea:focus::placeholder {
+    color: black;
+}
+
+
+form button {
+    width: 52.1vw;
+    border: 2px solid white;
+    font-size: 1.5em;
+    background-color: transparent;
+    color: white;
+    transition: all .4s;
+}
+
+form button:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
+::placeholder {
+    color: white;
+}
+
+form textarea {
+    height: 300px;
+    resize: none;
+    margin-bottom: 25px;
+}
+
+#contact-wrapper form h2 {
+    font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  color: white;
+}
+
+.half {
+    width: 25vw;
+    margin-right: 7px;
+
+}
+
+.full {
+    width: 51.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .half, .full {
+        width: 60vw;
+        font-size: 1em;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+
+    form textarea {
+        height: 150px;
+    }
+
+    form button {
+        width: 65vw;
+    }
+  }

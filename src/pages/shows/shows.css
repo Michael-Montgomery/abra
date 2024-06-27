@@ -1,0 +1,78 @@
+#events-wrapper {
+    width: 70vw;
+    display: inline-block;
+    float: right;
+    padding-right: 10vw;
+}
+
+#events-wrapper h2 {
+    text-align: center;
+    color: white;
+    font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+}
+
+#upcoming-events-list {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    /* overflow: scroll; */
+}
+
+#upcoming-events-list li {
+    margin-bottom: 10px;
+}
+
+.upcoming-event-wrapper {
+    border: 2px solid white;
+    transition: all .5s;
+}
+
+.upcoming-event-wrapper p {
+    color: white;
+    font-size: 1.4em;
+}
+
+.upcoming-event-title {
+    margin-bottom: 0;
+}
+
+.upcoming-event-date-time {
+    margin-top: 0;
+}
+
+.upcoming-event-details-button {
+    visibility: hidden;
+}
+
+.upcoming-event-wrapper:hover {
+    background-color: white;
+    /* color: black; */
+}
+
+.upcoming-event-wrapper:hover p {
+    color: black;
+    
+}
+
+.upcoming-event-wrapper:hover .upcoming-event-details-button {
+    visibility: visible;
+}
+
+.upcoming-event-details-button {
+    font-size: 1.4em;
+    border: 2px solid black;
+    background-color: white;
+    transition: all .4s;
+    margin-bottom: 10px;
+}
+
+.upcoming-event-details-button:hover {
+    background-color: black;
+    color: white;
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.75);
+}

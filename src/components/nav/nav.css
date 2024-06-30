@@ -22,7 +22,6 @@
 }
 
 #nav-wrapper ul li {
-    /* text-decoration: none; */
     transform: rotate(90deg);
     margin-bottom: 15vh;
 }
@@ -32,7 +31,6 @@
     transition: all .4s;
     color: white;
     font-size: 1.6em;
-    /* margin-bottom: 350vh; */
     font-family: "UnifrakturCook", cursive;
     font-weight: 700;
     font-style: normal;
@@ -58,21 +56,3 @@
 #nav-wrapper ul li a:hover:not(.active) {
     opacity: .8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-    
-  }
-

@@ -10,7 +10,8 @@ form {
     margin: 0 auto;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     font-size: 1.6em;
     margin-top: 30px;
     background-color: transparent;
@@ -19,7 +20,8 @@ form input, form textarea {
     outline: none;
 }
 
-form input:focus, form textarea:focus {
+form input:focus,
+form textarea:focus {
     background-color: white;
     color: black;
 }
@@ -31,7 +33,6 @@ form input:focus::placeholder {
 form textarea:focus::placeholder {
     color: black;
 }
-
 
 form button {
     width: 52.1vw;
@@ -47,8 +48,6 @@ form button:hover {
     background-color: white;
 }
 
-
-
 ::placeholder {
     color: white;
 }
@@ -61,10 +60,10 @@ form textarea {
 
 #contact-wrapper form h2 {
     font-family: "UnifrakturCook", cursive;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2em;
-  color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    color: white;
 }
 
 .half {
@@ -78,20 +77,10 @@ form textarea {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 600px) {
-    .half, .full {
+
+    .half,
+    .full {
         width: 60vw;
         font-size: 1em;
         margin-bottom: 0;
@@ -105,4 +94,4 @@ form textarea {
     form button {
         width: 65vw;
     }
-  }
+}

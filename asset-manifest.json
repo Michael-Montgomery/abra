@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/abra/static/css/main.012625fb.css",
+    "main.js": "/abra/static/js/main.731d50ab.js",
+    "static/js/453.75999ea6.chunk.js": "/abra/static/js/453.75999ea6.chunk.js",
+    "static/media/logo.png": "/abra/static/media/logo.ff8464214a7bbb1be4be.png",
+    "index.html": "/abra/index.html",
+    "main.012625fb.css.map": "/abra/static/css/main.012625fb.css.map",
+    "main.731d50ab.js.map": "/abra/static/js/main.731d50ab.js.map",
+    "453.75999ea6.chunk.js.map": "/abra/static/js/453.75999ea6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.012625fb.css",
+    "static/js/main.731d50ab.js"
+  ]
+}

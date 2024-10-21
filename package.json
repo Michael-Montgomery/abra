@@ -1,4 +1,5 @@
 {
+  "homepage": "https://michael-montgomery.github.io/abra",
   "name": "abra",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "react-router-dom": "^6.24.0"
   }
 }

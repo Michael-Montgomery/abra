@@ -8,6 +8,7 @@
     width: 50px;
     transform: rotate(-90deg);
     transition: all 120s;
+    border-radius: 50%;
 }
 
 #nav-wrapper img:hover {
